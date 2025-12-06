@@ -680,26 +680,26 @@ evenOrOdd(currentBuild.getNumber())
 **Scenario**: Assessing a Knowledge Base tool (like Confluence)
 
 **Developers want:**
-- ✓ Code snippet support
-- ✓ Markdown/formatting options
-- ✓ Good search functionality
-- ✓ Integration with JIRA/development tools
-- ✓ Easy to create and edit pages
+-  Code snippet support
+-  Markdown/formatting options
+-  Good search functionality
+-  Integration with JIRA/development tools
+-  Easy to create and edit pages
 
 **Project Manager wants:**
-- ✓ Dashboard showing documentation coverage
-- ✓ Reasonable cost per user
-- ✓ Reporting on page views/usage
-- ✓ Permission management
-- ✓ Easy team onboarding
+-  Dashboard showing documentation coverage
+-  Reasonable cost per user
+-  Reporting on page views/usage
+-  Permission management
+-  Easy team onboarding
 
 **IT Operations wants:**
-- ✓ On-premise or cloud deployment options
-- ✓ SSO integration
-- ✓ Backup and restore capabilities
-- ✓ Security features (encryption, access control)
-- ✓ Vendor support availability
-- ✓ Easy maintenance and updates
+-  On-premise or cloud deployment options
+-  SSO integration
+-  Backup and restore capabilities
+-  Security features (encryption, access control)
+-  Vendor support availability
+- Easy maintenance and updates
 
 ### Sample Tool Assessment: Source Code Management
 
@@ -711,8 +711,8 @@ evenOrOdd(currentBuild.getNumber())
 - Good documentation
 
 **Operations:**
-- Easy installation and maintenance ✓
-- Ability to contact support ✓
+- Easy installation and maintenance 
+- Ability to contact support 
 - Backup and disaster recovery
 - Security features
 - User authentication options
@@ -924,10 +924,10 @@ evenOrOdd(currentBuild.getNumber())
 - Requires careful management
 
 **Before Updating Production:**
-1. **Create rollback plan** ✓
-2. **Test in staging** ✓
-3. **Backup current state** ✓
-4. **Notify stakeholders** ✓
+1. **Create rollback plan** 
+2. **Test in staging** 
+3. **Backup current state** 
+4. **Notify stakeholders** 
 5. **NOT**: Skip notifications, try to fix on the fly
 
 **When to Update Production:**
@@ -1040,86 +1040,14 @@ evenOrOdd(currentBuild.getNumber())
 ### Artifact Repository
 
 **Advantages over File System:**
-- **Artifacts are versioned** ✓
+- **Artifacts are versioned** 
 - Centralized management
 - Controlled access
 - Better than: plain files, just compression, just tags
 
 **Key Characteristics:**
-- Artifacts are version controlled ✓
-- Artifacts are shared ✓
+- Artifacts are version controlled 
+- Artifacts are shared 
 
 ---
 
-## Quick Reference - Key Facts
-
-### True/False Quick Hits
-- ✓ EDE can be on-premise, cloud, or both
-- ✓ Infrastructure Automation = code in SCM
-- ✗ Continuous Delivery ≠ manual daily deploys (it's automated)
-- ✓ Pipeline is model of CI/CD process
-- ✓ Stage = distinct subset of tasks
-- ✗ Best practice ≠ pipeline in Jenkins job (should be in SCM)
-- ✓ Agent and Node are effectively the same
-- ✓ DevOps = ops and dev together through lifecycle
-- ✗ Build break ≠ everyone drops everything (but it's high priority)
-- ✓ Stakeholder = anyone with interest in system
-- ✓ Shared libraries = reduce redundancy
-- ✗ Quality gates ≠ wait for all code (can enforce immediately)
-- ✓ SonarQube snapshot = measures at point in time
-- ✗ NFRs ≠ define what system does (that's functional)
-- ✓ Database schemas go in source control
-- ✗ Rollback plan ≠ created after update
-- ✗ Global libraries ≠ only specific jobs (available to all)
-
-### Multiple Choice Quick Hits
-- Integrate enterprise systems? **Improve efficiency**
-- JIRA capability? **Work Management**
-- Jenkins file name? **Jenkinsfile**
-- Jenkins brains? **Controller**
-- Manages execution on node? **Executor**
-- Runs stages? **Agent**
-- DevOps practice areas? **CD, IaC, SRE**
-- CI server? **Build runs on every code change**
-- Trigger pipeline? **Change to source code**
-- Shared library language? **Groovy**
-- Static analysis? **Inspection without execution**
-- SonarQube scanner? **Client app that analyzes code**
-- Enterprise? **Company with multiple employees**
-- IaaS vs SaaS? **Infrastructure vs Complete applications**
-- SaaS example? **Salesforce**
-- Best time for prod update? **Low-traffic outside business hours**
-- If prod update fails? **Execute rollback immediately**
-
----
-
-## Study Tips
-
-1. **Understand concepts, not just memorize**
-   - Why do we use these tools?
-   - How do they work together?
-   - What problems do they solve?
-
-2. **Know stakeholder perspectives**
-   - What does each role care about?
-   - How do their concerns differ?
-
-3. **Practice scenario-based thinking**
-   - Given a situation, what would you recommend?
-   - Why one approach over another?
-
-4. **Review tool capabilities**
-   - What does each tool do?
-   - How do they integrate?
-
-5. **Understand workflows**
-   - Different branching strategies
-   - CI/CD pipeline flow
-   - DevOps practices
-
-6. **Know the architecture**
-   - How components communicate
-   - Authentication and authorization
-   - Infrastructure patterns
-
-Good luck on your final exam! 🎓
